@@ -290,6 +290,18 @@ nav ul li a:hover {
   font-size: 14px;
 }
 @media (max-width: 768px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .menu-principal,
+  .col-bebidas, .col-platos, .col-postres,
+  .contacto, .derechos {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
   .menu-principal {
     flex-direction: column;
     gap: 0;
