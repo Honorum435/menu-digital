@@ -13,7 +13,7 @@
 ![Inicio](img/Inicio.PNG)
 
 ### Menú digital
-![Menú](img/Inicio.PNG)
+![Menú](img/Menu.PNG)
 
 ---
 
