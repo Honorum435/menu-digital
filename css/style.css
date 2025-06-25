@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:wght@400;700&display=swap');
+body{
+    font-family: "Chiron Sung HK", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3639; /* Color de fondo */
+    
+}
+h1 {
+  font-size: 2.5em; /* Tamaño de fuente del h1 */
+  color: gold; /* Color del texto del h1 */
+  margin: 20px 0; /* Margen superior e inferior */
+      text-align: center; /* Centrar el texto */
+
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+      text-align: center; /* Centrar el texto */
+background-color: #A27B5C; /* Color de fondo del menú */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el menú */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Espacio entre los elementos */
+      text-align: center; /* Centrar el texto */
+border-radius: 30px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+}
+nav ul li a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #fffbe6;
+}
+.hero{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/Fondo-del-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    height: 80vh; /* Altura del hero */
+    font-size: 50px; /* Tamaño de fuente del hero */
+    color: gold; /* Color del texto del hero */
+    margin-bottom: 20px;
+        text-align: center; /* Centrar el texto */
+
+}
+.Platos{
+  color: gold; /* Color del texto de los platos */
+  font-size: 20px; /* Tamaño de fuente de los platos */
+  margin-bottom: 20px;
+      text-align: center; /* Centrar el texto */
+
+}
+.plato1{
+  color: gold; /* Color del texto de los platos */
+  font-size: 20px; /* Tamaño de fuente de los platos */
+  margin-bottom: 20px;
+  margin-left: 35px; /* Alineación a la izquierda */
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+  background: #3F4E4F; /* Fondo oscuro para la caja */
+  border: 2px solid gold; /* Borde dorado */
+  display: inline-block; /* Hace que todo el contenido esté junto como caja */
+  text-align: center; /* Centrar el texto */
+  width: 260px; /* Mismo ancho para ambas cajas */
+  height: 350px; /* Misma altura para ambas cajas */
+}
+.plato1 img {
+  width: 200px; /* Ancho de la imagen del plato 1 */
+  height: 200px; /* Alto de la imagen del plato 1 */
+  border-radius: 30px; /* Bordes redondeados */
+  margin: 10px 0; /* Espacio arriba y abajo de la imagen */
+  display: block;
+  margin-left: 35px;
+  margin-right: 35px; /* Alineación centrada de la imagen */
+}
+.plato2{
+  color: gold; /* Color del texto de los platos */
+  font-size: 20px; /* Tamaño de fuente de los platos */
+  margin-bottom: 20px;
+    margin-left: 35px; /* Alineación a la izquierda */
+
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+  background: #3F4E4F; /* Fondo oscuro para la caja */
+  border: 2px solid gold; /* Borde dorado */
+  display: inline-block; /* Hace que todo el contenido esté junto como caja */
+  text-align: center; /* Centrar el texto */
+  width: 260px; /* Mismo ancho para ambas cajas */
+  height: 350px; /* Misma altura para ambas cajas */
+}
+.plato2 img {
+  width: 200px; /* Ancho de la imagen del plato 2 */
+  height: 200px; /* Alto de la imagen del plato 2 */
+  border-radius: 30px; /* Bordes redondeados */
+  margin: 10px 0; /* Espacio arriba y abajo de la imagen */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plato3{
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 20px;
+    margin-left: 35px; /* Alineación a la izquierda */
+
+  border-radius: 30px;
+  padding: 10px;
+  background: #3F4E4F;
+  border: 2px solid gold;
+  display: inline-block;
+  text-align: center;
+  width: 260px;
+  height: 350px;
+}
+.plato3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plato4{
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 20px;
+    margin-left: 35px; /* Alineación a la izquierda */
+
+  border-radius: 30px;
+  padding: 10px;
+  background: #3F4E4F;
+  border: 2px solid gold;
+  display: inline-block;
+  text-align: center;
+  width: 260px;
+  height: 350px;
+}
+.plato4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+.col-bebidas, .col-platos {
+  flex: 1 1 0;
+  min-width: 350px;
+}
+.col-bebidas {
+  text-align: center;
+}
+.col-platos {
+  text-align: center;
+}
+.fila-bebidas, .fila-platos {
+  width: 100%;
+  margin-bottom: 30px;
+  min-height: 350px;
+}
+.fila-bebidas > div, .fila-platos > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.plato1:hover, .plato2:hover, .plato3:hover, .plato4:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  transition: transform 0.3s ease; /* Transición suave */
+}
+.bebida1, .bebida2, .bebida3, .bebida4 {
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  border-radius: 30px;
+  padding: 10px;
+  background: #3F4E4F;
+  border: 2px solid gold;
+  display: inline-block;
+  text-align: center;
+  width: 260px;
+  height: 350px;
+}
+.bebida1 img, .bebida2 img, .bebida3 img, .bebida4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bebida1:hover, .bebida2:hover, .bebida3:hover, .bebida4:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.col-bebidas h2{
+  color: gold; /* Color del texto de los títulos de bebidas */
+  font-size: 24px; /* Tamaño de fuente de los títulos de bebidas */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  margin-right: 3px; /* Alineación a la izquierda */
+  text-align: center; /* Centrar el texto del título */
+}
+.col-platos h2{
+  color: gold; /* Color del texto de los títulos de platos */
+  font-size: 24px; /* Tamaño de fuente de los títulos de platos */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  margin-right: 3px; /* Alineación a la izquierda */
+  text-align: center; /* Centrar el texto del título */
+}
+.col-postres {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+.col-postres h2 {
+  color: gold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fila-postres {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  margin-bottom: 30px;
+}
+.postre1, .postre2, .postre3, .postre4 {
+  color: gold;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  background: #3F4E4F;
+  border: 2px solid gold;
+  display: inline-block;
+  text-align: center;
+  width: 260px;
+  height: 350px;
+  margin-bottom: 20px;
+  
+}
+.postre1 img, .postre2 img, .postre3 img, .postre4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.postre1:hover, .postre2:hover, .postre3:hover, .postre4:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.contacto {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid gold;
+  color: gold;
+  background-color: #2C3636;
+}
+.derechos {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  color: gold;
+  font-size: 14px;
+}
