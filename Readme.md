@@ -10,10 +10,10 @@
 ## 🖼️ Vista previa
 
 ### Página de inicio
-![Inicio](/assets/inicio.png)
+![Inicio](img/Inicio.PNG)
 
 ### Menú digital
-![Menú](/assets/menu.png)
+![Menú](img/Inicio.PNG)
 
 ---
 
